@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeSpeed;
+	margin: 0;
+	min-height: 100vh;
+	position: relative;
+	scroll-behavior: smooth;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+/* Inter */
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Inter'), url('../public/fonts/Inter-Regular.woff2') format('woff2'),
+		url('../public/fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter Semi Bold';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: local('Inter Semi Bold'), url('../public/fonts/Inter-SemiBold.woff2') format('woff2'),
+		url('../public/fonts/Inter-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Inter Bold'), url('../public/fonts/Inter-Bold.woff2') format('woff2'),
+		url('../public/fonts/Inter-Bold.woff') format('woff');
+}
+
+/* ------------- GT America Mono */
+@font-face {
+	font-family: 'GT America Mono';
+	src: local('GT America Mono'), url('../public/fonts/GT-America-Mono-Bold.eot') format('eot'),
+		url('../public/fonts/GT-America-Mono-Bold.otf') format('otf'),
+		url('../public/fonts/GT-America-Mono-Bold.ttf') format('ttf'),
+		url('../public/fonts/GT-America-Mono-Bold.woff') format('woff'),
+		url('../public/fonts/GT-America-Mono-Bold.woff2') format('woff2');
+	font-display: swap;
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* ------------- GT America Expanded */
+@font-face {
+	font-family: 'GT America Expanded Black';
+	src: local('GT America Expanded Black'),
+		url('../public/fonts/GT-America-Expanded-Black.eot') format('eot'),
+		url('../public/fonts/GT-America-Expanded-Black.otf') format('otf'),
+		url('../public/fonts/GT-America-Expanded-Black.ttf') format('ttf'),
+		url('../public/fonts/GT-America-Expanded-Black.woff') format('woff'),
+		url('../public/fonts/GT-America-Expanded-Black.woff2') format('woff2');
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* ------------- GT America Expanded */
+@font-face {
+	font-family: 'GT America Condensed-Medium';
+	src: local('GT America Condensed-Medium'),
+		url('../public/fonts/GT-America-Condensed-Medium.eot') format('eot'),
+		url('../public/fonts/GT-America-Condensed-Medium.otf') format('otf'),
+		url('../public/fonts/GT-America-Condensed-Medium.ttf') format('ttf'),
+		url('../public/fonts/GT-America-Condensed-Medium.woff') format('woff'),
+		url('../public/fonts/GT-America-Condensed-Medium.woff2') format('woff2');
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* ------------- GT America Expanded */
+@font-face {
+	font-family: 'GT America Condensed-Bold';
+	src: local('GT America Condensed-Bold'),
+		url('../public/fonts/GT-America-Condensed-Bold.eot') format('eot'),
+		url('../public/fonts/GT-America-Condensed-Bold.otf') format('otf'),
+		url('../public/fonts/GT-America-Condensed-Bold.ttf') format('ttf'),
+		url('../public/fonts/GT-America-Condensed-Bold.woff') format('woff'),
+		url('../public/fonts/GT-America-Condensed-Bold.woff2') format('woff2');
+	font-display: swap;
+	font-style: normal;
+	font-weight: bold;
+}

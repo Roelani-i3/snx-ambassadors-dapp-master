@@ -1,0 +1,115 @@
+{
+	"nav": {
+		"vote": "Vote"
+	},
+	"home": {
+		"page-title": "Home | Synthetix Ambassadors",
+		"hero": "Synthetix ambassadors",
+		"subhero": "The Synthetix Ambassadors programme is for synthetix community members to delegate their third-party voting weights to the ambassadors who aim to vote in the best interest of the synthetix ecosystem."
+	},
+	"ambassadors": {
+		"title": "Mission",
+		"description": "The Synthetix Ambassadors program is for synthetix community members to delegate their third-party voting weights to the ambassadors who aim to vote in the best interest of the synthetix ecosystem."
+	},
+	"delegation": {
+		"title": "My Delegation",
+		"box": {
+			"power": "Voting power",
+			"delegated": "Delegated",
+			"view": "View protocol"
+		}
+	},
+	"members": {
+		"title": "Members",
+		"helper": "The following ambassadors operate out of a Gnosis Multisig with address <0>{{ambassadorMultisig}}</0>",
+		"table": {
+			"name": "name",
+			"address": "address",
+			"votes": "votes"
+		}
+	},
+	"protocol": {
+		"page-title": "Delegate | Synthetix Ambassadors",
+		"delegate": {
+			"title": "Delegate {{ticker}}",
+			"vote-weight": "Total voting weight",
+			"options": "Select an option",
+			"stats": {
+				"votes": "Votes",
+				"delegators": "Delegators"
+			},
+			"user": {
+				"available": "Available votes",
+				"status": "Status",
+				"not-delegated": "Not delegated",
+				"delegated": "Delegated"
+			},
+			"withdraw": {
+				"title": "Withdraw your delegation",
+				"helper": "Withdrawing sets the delegate to your own address",
+				"button": "Withdraw",
+				"not-connected": {
+					"title": "Wallet not connected",
+					"subtext": "Please connect your wallet to see your delegation status.",
+					"button": "Connect wallet"
+				}
+			},
+			"direct": {
+				"title": "Delegate your vote",
+				"description": "Delegate your voting power to the Synthetix Ambassadors. By clicking the button below, you will be calling the delegate() function on the {{ticker}} contract found <0>here</0>. This will delegate your {{ticker}} to the Synthetix Ambassadors's multisig address.",
+				"button": "Delegate directly"
+			},
+			"sig": {
+				"title": "Delegate your vote by signature",
+				"description": "Delegate your voting power to the Synthetix Ambassadors via a delegateBySig transaction. By clicking the button below, you will be presigning a transaction that will be paid for and executed by the Synthetix Ambassadors.",
+				"helper": "This transactions allows delegates to save in gas fees, but may not be instant",
+				"button": "Delegate by signature"
+			}
+		},
+		"activity": {
+			"title": "Voting Activity",
+			"empty": {
+				"title": "No past activity",
+				"subtext": "Reach out to the ambassadors to signal a vote"
+			}
+		}
+	},
+	"common": {
+		"wallet": {
+			"not-connected": "Connect wallet",
+			"disconnect": "Disconnect",
+			"change-wallet": "change wallet",
+			"switch-account": "switch account"
+		},
+		"not-found": {
+			"page-title": "Not Found | Synthetix Ambassadors",
+			"title": "Oops, something went wrong",
+			"subtitle": "The page you are looking for is not found or cannot reach due to some error. Kindly go back and choose another direction.",
+			"button": "Go home"
+		},
+		"confirm-transaction": {
+			"title": "Confirm Transaction",
+			"delegate": {
+				"delegating": "Delegating for",
+				"contract": "{{protocolTicker}} contract"
+			},
+			"withdraw": {
+				"withdrawing": "Withdrawing delegation for",
+				"contract": "{{protocolTicker}} contract"
+			},
+			"helper": "Follow the Metamask prompts to authorize the transaction"
+		},
+		"confirm-signature": {
+			"title": "Confirm Signature",
+			"delegate": {
+				"delegating": "Delegating via signature vote for",
+				"contract": "{{protocolTicker}} contract"
+			},
+			"helper": "Follow the Metamask prompts to confirm your signature"
+		},
+		"transaction": {
+			"error": "An unexpected error occurred.",
+			"reattempt": "Try again"
+		}
+	}
+}
