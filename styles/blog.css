@@ -1,5 +1,24 @@
 
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
 
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+
+img.featured-post-img {
+  width: 100%;
+}
 
 a {
     text-decoration: none!important;
@@ -29,7 +48,7 @@ a {
 
 
 .grid-item {
-  padding: 5px;
+  padding: 0;
   box-sizing: border-box;
   display:inline;
 }
@@ -80,7 +99,6 @@ a {
 }
 
 .post-excerpt-masonry {
-    width: 614px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -97,6 +115,7 @@ a {
 
 .read-container-masonry {
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .blurb {
@@ -216,29 +235,4 @@ a {
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #b9bac7!important;
-}
-
-@media (min-width: 500px) {
-  .grid-item {
-    width: 50%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .grid-item {
-    width: 33.333%;
-    padding: 0 15px 15px 0;
-  }
-}
-
-@media (min-width: 1700px) {
-  .grid-item {
-    width: 25%;
-  }
-}
-
-@media (min-width: 2100px) {
-  .grid-item {
-    width: 20%;
-  }
 }
