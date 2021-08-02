@@ -164,6 +164,7 @@ const StyledParagraph = styled(Paragraph)`
 	color: ${(props) => props.theme.colors.white};
 	text-transform: none;
 	line-height: 20px;
+	max-width: 800px;
 `;
 
 const StyledExternalIcon = styled(ExternalLink)``;
