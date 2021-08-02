@@ -294,12 +294,21 @@ a {
     opacity: 0.8;
 }
 
-.sytnhwave-container {
+.synthwave-container {
     display: flex;
 }
 
 .snxa-header-intro-svg {
-    display: block;
-    margin: auto;
+    margin: 60px auto;
+}
+
+.landing-page-header {
+    font-family: GT America Expanded Black;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
 }
 

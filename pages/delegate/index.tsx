@@ -26,7 +26,7 @@ import { ethers } from 'ethers';
 
 import HeroGraphic from 'assets/svg/hero.svg';
 
-const HomePage: React.FC = () => {
+const Delegate: React.FC = () => {
 	const { t } = useTranslation();
 
 	const protocolDelegates = useProtocolDelegateData();
@@ -70,18 +70,10 @@ const HomePage: React.FC = () => {
 	return (
 		<>
 			<Head>
-				<title>{t('home.page-title')}</title>
+				<title>{t('Delegate | Synthetix Ambassadors')}</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Page>
-				<HeroContainer>
-					<Hero>{t('home.hero')}</Hero>
-					<StyledParagraph>{t('ambassadors.description')}</StyledParagraph>
-				</HeroContainer>
-
-				<SvgContainer>
-					<HeroSvg src={HeroGraphic} />
-				</SvgContainer>
 
 				<Header title={t('delegation.title')} />
 				<StyledGrid>
@@ -122,7 +114,7 @@ const HomePage: React.FC = () => {
 	);
 };
 
-export default HomePage;
+export default Delegate;
 
 const Page = styled.div`
 	padding-bottom: 24px;
