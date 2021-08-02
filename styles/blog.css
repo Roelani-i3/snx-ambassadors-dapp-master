@@ -1,4 +1,9 @@
 
+a:hover {
+    color: #03cefc;
+    opacity: 0.8;
+}
+
 .my-masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
@@ -110,12 +115,13 @@ a {
 
 .read-container {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
 .read-container-masonry {
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .blurb {
@@ -236,3 +242,64 @@ a {
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #b9bac7!important;
 }
+
+.featured-blog-header-inner {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+
+}
+
+.post-excerpt-intro {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.social-share {
+    padding-bottom: 30px;
+}
+
+.social-share-icon {
+    padding-right: 10px;
+}
+
+.read-container:hover {
+    opacity: 0.8;
+}
+
+.read-container-masonry:hover {
+    opacity: 0.8;
+}
+
+.grid-item:hover {
+    opacity: 0.8!important;
+}
+
+.featured-blog-header-masonry:hover {
+    opacity: 0.8;
+}
+
+.sytnhwave-container {
+    display: flex;
+}
+
+.snxa-header-intro-svg {
+    display: block;
+    margin: auto;
+}
+
