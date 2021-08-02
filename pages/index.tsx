@@ -87,8 +87,6 @@ const HomePage: React.FC = () => {
 				<SvgContainer>
 					<HeroSvg src={HeroGraphic} />
 				</SvgContainer>
-
-
 			</Page>
 		</>
 	);
@@ -144,9 +142,7 @@ const SvgContainer = styled(FlexDivCentered)`
 `;
 
 const HeroSvg = styled(Svg)`
-	@media only screen and (min-width: 1440px) {
-		display: none;
-	}
+	width: 100%;
 `;
 
 const StyledTable = styled(Table)`
